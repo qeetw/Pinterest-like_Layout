@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801D813D1D047EF500A069FD /* PinterestLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D813C1D047EF500A069FD /* PinterestLayout.m */; };
+		801D81401D04820100A069FD /* PinterestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D813F1D04820100A069FD /* PinterestCollectionViewController.m */; };
+		80562B3F1D047DD2006B789C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80562B3E1D047DD2006B789C /* main.m */; };
+		80562B421D047DD2006B789C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80562B411D047DD2006B789C /* AppDelegate.m */; };
+		80562B481D047DD2006B789C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80562B461D047DD2006B789C /* Main.storyboard */; };
+		80562B4A1D047DD2006B789C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80562B491D047DD2006B789C /* Assets.xcassets */; };
+		80562B4D1D047DD2006B789C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80562B4B1D047DD2006B789C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		801D813B1D047EF500A069FD /* PinterestLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestLayout.h; sourceTree = "<group>"; };
+		801D813C1D047EF500A069FD /* PinterestLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestLayout.m; sourceTree = "<group>"; };
+		801D813E1D04820100A069FD /* PinterestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestCollectionViewController.h; sourceTree = "<group>"; };
+		801D813F1D04820100A069FD /* PinterestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestCollectionViewController.m; sourceTree = "<group>"; };
+		80562B3A1D047DD2006B789C /* Pinterest-like_Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinterest-like_Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80562B3E1D047DD2006B789C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80562B401D047DD2006B789C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80562B411D047DD2006B789C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80562B471D047DD2006B789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80562B491D047DD2006B789C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80562B4C1D047DD2006B789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80562B4E1D047DD2006B789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80562B371D047DD2006B789C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80562B311D047DD2006B789C = {
+			isa = PBXGroup;
+			children = (
+				80562B3C1D047DD2006B789C /* Pinterest-like_Layout */,
+				80562B3B1D047DD2006B789C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80562B3B1D047DD2006B789C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80562B3A1D047DD2006B789C /* Pinterest-like_Layout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80562B3C1D047DD2006B789C /* Pinterest-like_Layout */ = {
+			isa = PBXGroup;
+			children = (
+				80562B401D047DD2006B789C /* AppDelegate.h */,
+				80562B411D047DD2006B789C /* AppDelegate.m */,
+				801D813B1D047EF500A069FD /* PinterestLayout.h */,
+				801D813C1D047EF500A069FD /* PinterestLayout.m */,
+				80562B461D047DD2006B789C /* Main.storyboard */,
+				801D813E1D04820100A069FD /* PinterestCollectionViewController.h */,
+				801D813F1D04820100A069FD /* PinterestCollectionViewController.m */,
+				80562B491D047DD2006B789C /* Assets.xcassets */,
+				80562B4B1D047DD2006B789C /* LaunchScreen.storyboard */,
+				80562B4E1D047DD2006B789C /* Info.plist */,
+				80562B3D1D047DD2006B789C /* Supporting Files */,
+			);
+			path = "Pinterest-like_Layout";
+			sourceTree = "<group>";
+		};
+		80562B3D1D047DD2006B789C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80562B3E1D047DD2006B789C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80562B391D047DD2006B789C /* Pinterest-like_Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80562B511D047DD2006B789C /* Build configuration list for PBXNativeTarget "Pinterest-like_Layout" */;
+			buildPhases = (
+				80562B361D047DD2006B789C /* Sources */,
+				80562B371D047DD2006B789C /* Frameworks */,
+				80562B381D047DD2006B789C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinterest-like_Layout";
+			productName = "Pinterest-like_Layout";
+			productReference = 80562B3A1D047DD2006B789C /* Pinterest-like_Layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80562B321D047DD2006B789C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qee;
+				TargetAttributes = {
+					80562B391D047DD2006B789C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S5CU6N9G2L;
+					};
+				};
+			};
+			buildConfigurationList = 80562B351D047DD2006B789C /* Build configuration list for PBXProject "Pinterest-like_Layout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80562B311D047DD2006B789C;
+			productRefGroup = 80562B3B1D047DD2006B789C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80562B391D047DD2006B789C /* Pinterest-like_Layout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80562B381D047DD2006B789C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80562B4D1D047DD2006B789C /* LaunchScreen.storyboard in Resources */,
+				80562B4A1D047DD2006B789C /* Assets.xcassets in Resources */,
+				80562B481D047DD2006B789C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80562B361D047DD2006B789C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801D813D1D047EF500A069FD /* PinterestLayout.m in Sources */,
+				80562B421D047DD2006B789C /* AppDelegate.m in Sources */,
+				80562B3F1D047DD2006B789C /* main.m in Sources */,
+				801D81401D04820100A069FD /* PinterestCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80562B461D047DD2006B789C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80562B471D047DD2006B789C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80562B4B1D047DD2006B789C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80562B4C1D047DD2006B789C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80562B4F1D047DD2006B789C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80562B501D047DD2006B789C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80562B521D047DD2006B789C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Pinterest-like_Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qee.Pinterest-like-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80562B531D047DD2006B789C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Pinterest-like_Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qee.Pinterest-like-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80562B351D047DD2006B789C /* Build configuration list for PBXProject "Pinterest-like_Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80562B4F1D047DD2006B789C /* Debug */,
+				80562B501D047DD2006B789C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80562B511D047DD2006B789C /* Build configuration list for PBXNativeTarget "Pinterest-like_Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80562B521D047DD2006B789C /* Debug */,
+				80562B531D047DD2006B789C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80562B321D047DD2006B789C /* Project object */;
+}
