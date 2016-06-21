@@ -35,7 +35,7 @@
 #pragma mark - Init
 
 - (void)defaultInit {
-    _columnCount = 3;
+    _columnCount = 2;
     _minimumColumnSpacing = 10;
     _minimumInteritemSpacing = 10;
     _sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);

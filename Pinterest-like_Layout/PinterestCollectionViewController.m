@@ -34,7 +34,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     // Set data
     sectionCount = 2;
-    itemCount = 9;
+    itemCount = 5;
     srand(time(0));
     data = [NSMutableArray arrayWithCapacity:sectionCount];
     
