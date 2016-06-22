@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PinterestCollectionViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    PinterestCollectionViewController *mainViewController = [[PinterestCollectionViewController alloc] init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = mainViewController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

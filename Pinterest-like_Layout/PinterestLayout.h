@@ -29,6 +29,6 @@ typedef NS_ENUM(NSUInteger, PinterestLayoutRenderDirection) {
 @property (nonatomic, assign) CGFloat minimumInteritemSpacing;
 @property (nonatomic, assign) UIEdgeInsets sectionInset;
 @property (nonatomic, assign) PinterestLayoutRenderDirection itemRenderDirection;
-@property (nonatomic, weak) id<PinterestLayoutDelegate> delegate;
+@property (nonatomic, weak) id<PinterestLayoutDelegate> sizeDelegate;
 
 @end

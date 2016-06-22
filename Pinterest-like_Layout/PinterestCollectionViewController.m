@@ -21,16 +21,21 @@
 
 static NSString * const reuseIdentifier = @"Cell";
 
+- (id)init {
+    PinterestLayout *layout = [[PinterestLayout alloc] init];
+    return [super initWithCollectionViewLayout:layout];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
    
     // Register cell classes
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-    // Set layout
-    PinterestLayout *layout = [[PinterestLayout alloc] init];
-    layout.delegate = self;
-    self.collectionView.collectionViewLayout = layout;
+    self.collectionView.backgroundColor = [UIColor whiteColor];
+    
+    // Set layout delegate
+    ((PinterestLayout *)self.collectionViewLayout).sizeDelegate = self;
     
     // Set data
     sectionCount = 2;

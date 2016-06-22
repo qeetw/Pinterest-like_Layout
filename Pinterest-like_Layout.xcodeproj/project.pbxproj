@@ -11,7 +11,6 @@
 		801D81401D04820100A069FD /* PinterestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D813F1D04820100A069FD /* PinterestCollectionViewController.m */; };
 		80562B3F1D047DD2006B789C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80562B3E1D047DD2006B789C /* main.m */; };
 		80562B421D047DD2006B789C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80562B411D047DD2006B789C /* AppDelegate.m */; };
-		80562B481D047DD2006B789C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80562B461D047DD2006B789C /* Main.storyboard */; };
 		80562B4A1D047DD2006B789C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80562B491D047DD2006B789C /* Assets.xcassets */; };
 		80562B4D1D047DD2006B789C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80562B4B1D047DD2006B789C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,6 @@
 		80562B3E1D047DD2006B789C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80562B401D047DD2006B789C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80562B411D047DD2006B789C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80562B471D047DD2006B789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80562B491D047DD2006B789C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80562B4C1D047DD2006B789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80562B4E1D047DD2006B789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				80562B411D047DD2006B789C /* AppDelegate.m */,
 				801D813B1D047EF500A069FD /* PinterestLayout.h */,
 				801D813C1D047EF500A069FD /* PinterestLayout.m */,
-				80562B461D047DD2006B789C /* Main.storyboard */,
 				801D813E1D04820100A069FD /* PinterestCollectionViewController.h */,
 				801D813F1D04820100A069FD /* PinterestCollectionViewController.m */,
 				80562B491D047DD2006B789C /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 			files = (
 				80562B4D1D047DD2006B789C /* LaunchScreen.storyboard in Resources */,
 				80562B4A1D047DD2006B789C /* Assets.xcassets in Resources */,
-				80562B481D047DD2006B789C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +161,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		80562B461D047DD2006B789C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80562B471D047DD2006B789C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80562B4B1D047DD2006B789C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

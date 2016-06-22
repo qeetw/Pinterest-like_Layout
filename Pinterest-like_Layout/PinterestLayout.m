@@ -90,7 +90,7 @@
             NSUInteger columnIndex = [self nextColumnIndexForItem:idx inSection:section];
             CGFloat xOffset = sectionInset.left + (itemWidth + columnSpacing) * columnIndex;
             CGFloat yOffset = [self.sectionColumnHeights[section][columnIndex] floatValue];
-            CGSize itemSize = [self.delegate collectionView:self.collectionView layout:self sizeForItemAtIndexPath:indexPath];
+            CGSize itemSize = [self.sizeDelegate collectionView:self.collectionView layout:self sizeForItemAtIndexPath:indexPath];
             CGFloat itemHeight = 0;
             if (itemSize.height > 0 && itemSize.width > 0) {
                 itemHeight = floor(itemSize.height * itemWidth / itemSize.width);
